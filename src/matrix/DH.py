@@ -45,4 +45,4 @@ class DH:
         # print("ID:", id, "D:", self.d, "Theta:", self.theta, "A:", self.a, "Alpha:", self.alpha)
 
     def printDHLink(self):
-        print("self.dhSegments.append(DHSegment(" + str(self.theta) + " ," + str(self.d) + " ," + str(self.a) + " ," + str(self.alpha) + "))")
+        print("dhSegments.append(DHSegment(" + str(self.theta) + " ," + str(self.d) + " ," + str(self.a) + " ," + str(self.alpha) + "))")
